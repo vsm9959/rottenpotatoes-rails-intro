@@ -39,6 +39,9 @@ table#movies {
   width: 100%;
   border-bottom: 2px solid black;
 }
+table#movies{
+
+}
 table#movies th {
   border: 2px solid white;
   font-weight: bold;
@@ -52,6 +55,9 @@ table#movies th, table#movies td {
   background: rosybrown;
   margin: 1em 0;
   padding: 4px;
+}
+table#movies th.hilite {
+background-color:yellow;  
 }
 form label {
   display: block;
